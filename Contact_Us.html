@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us | coffeeBreak</title>
+
+	<style type="text/css">
+	
+		body {
+			background-color: black; 
+		    background-size: cover;
+			font-family: Helvetica,sans-serif; 
+			margin: 0px;
+		}
+		
+		.navigation_bar {
+		  overflow: hidden;
+		  background-color: #1d0f0b;
+		}
+
+		.navigation_bar a {
+		  float: right;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		.navigation_bar a:hover {
+		  background-color: #ddd;
+		  color: black;
+		}
+
+		.navigation_bar a.active {
+		  background-color: #796d5d;
+		  color: white;
+		}
+		
+		#contact_form {
+			background-color: #615e59;
+			color: white;
+		}
+		
+		#logo {
+			color: #a6a7a5;
+		}
+		
+		table {
+			width: 90%;
+			margin: 0px 90px;
+		}
+		
+		td {
+			text-align: justify;
+			padding: 40px;
+		}
+		
+		footer{
+			background-color: #615e59;
+			color: white;
+		}
+		
+		#product, #logo, #contact, #top {
+			color: white;
+		}
+		
+	</style>
+	
+</head>
+<body>
+	
+	<div class="navigation_bar">
+		<a class="active"  href="Contact_Us.html">Contact Us</a>
+		<a href="Testimonial.html">Testimonial</a>
+		<a href="Gallery.html">Gallery</a>
+		<a href="products.html">Products</a>
+		<a href="cortez_ex4.html">About us</a>
+	</div>
+	
+	
+	
+	<!-- width set tp 100 in order to strech full page-->
+	<img src = "contact_banner.jpg" alt = "contact_banner" width = "100%" height= "100%">
+	
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	
+	<div id = "contact_form">
+	
+			<br /><br /><br />
+			
+			<center>
+				<h1 style = "color: white"> - Contact Form - </h1>
+			</center>
+			<!-- contact form-->
+			<form method = "post" action = "mailto:markcortez2002@gmail.com" style = "margin: 0px 300px" >
+					<br /><br /><br />
+					<label for="Surname">Last Name</label> &nbsp;&nbsp;&nbsp;
+					<input type = "text" id="Last Name" name = "Surname" size = "10" maxlength = "20">&nbsp;&nbsp;&nbsp;
+					
+					<label for="First Name">First Name</label>&nbsp;&nbsp;&nbsp;
+					<input type = "text" id="First Name" name = "Given Name" size = "10" maxlength = "20">&nbsp;&nbsp;&nbsp;
+					
+					<label for="Middle Initial">Middle Initial</label> &nbsp;&nbsp;&nbsp;
+					<input type = "text" id="Middle Initial" name = "Middle Initial" size = "2" maxlength = "2">&nbsp;&nbsp;&nbsp;
+					
+					<br /><br />
+					
+					<label for="Sex">Sex</label>
+					<input type = "radio" id="Sex" name = "Gender" value = "Male"> Male
+					<input type = "radio" id="Sex" name = "Gender" value = "Female"> Female
+							 
+					<br /><br />
+					
+					<label for="Birthday">Birthday</label>
+					<input type = "date" id="Birthday" name= "birthday">&emsp;&emsp;&emsp;&emsp;&emsp;	 
+					
+					<label for="Age">Age</label>  
+					<input type="number" id="Age" name="quantity" min="1" max="100">
+					
+					<br /><br />
+					
+					<label for="Street Address">Street Address</label> &nbsp;&nbsp;&nbsp;
+					<input type = "text" id="Street Address" name = "Address" size = "35" maxlength = "60">&nbsp;&nbsp;&nbsp;
+					
+					<br /><br />
+					
+					<label for="City">City</label>&nbsp;&nbsp;&nbsp;
+					<input type = "text" id="City" name = "City" size = "15" maxlength = "40">&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					
+					<label for="State/Province">State/Province</label> &nbsp;&nbsp;&nbsp;
+					<input type = "text" id="State/Province" name = "State/Province" size = "15" maxlength = "40">&nbsp;&nbsp;&nbsp;
+					
+					<br /><br />
+					
+					<label for="Postal/Zip code">Postal/Zip code</label>&nbsp;
+					<input type = "text" id="Postal/Zip code" name = "Postal/Zip code" size = "5" maxlength = "10">&nbsp;&nbsp;&nbsp;
+					
+					<br /><br />
+					
+					<label for="Phone number">Phone number</label>&nbsp;&nbsp;&nbsp;
+					<input type = "text" id="Phone number" name = "Contact Number" size = "11" maxlength = "11">&nbsp;&nbsp;&nbsp;
+					
+					<br /><br />
+					
+					<label for="E-mail">E-mail</label>&nbsp;&nbsp;&nbsp;
+					<input type = "email" id = "E-mail" name = "email" size = "18" maxlength = "30">&nbsp;&nbsp;&nbsp;
+					<br /><br />
+					
+					<label for="concerns"> Message</label> <br /> <br /> <textarea rows = "15" cols = "100" id = "concerns"> </textarea>
+					<br /><br />
+					
+					<label for="Inquiry">How did you hear about us?</label>
+						<select id = "Inquiry">
+							<option> Please select </option>
+							<option> Referral </option>
+							<option> Internet Search </option>
+							<option> Internet Advertisement </option>
+							<option> Internet Blog </option>
+							<option> Printed Publication </option>
+							<option> Social Media </option>
+							<option> Other </option>
+						</select>
+						
+					<br /><br /><br /><br />
+					
+					<center>
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+						
+					<br /><br /><br /><br />
+			</form>
+	</div>
+	
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<!-- iframe of mandaluyong map-->
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30890.053456994523!2d121.
+	02099565083843!3d14.58444438096035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8
+	35c77b9b79%3A0xdc4947c8b9d237f8!2sMandaluyong%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v16188649
+	57401!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+	</iframe>
+	
+	<br /><br /><br /><br /><br /><br /><br /><br /><br />
+	
+	<center>
+		<h1 style = "font-family: Marker Felt, fantasy; font-size: 3em"> <a href = "cortez_ex4.html" id = "logo" >coffeeBreak </a> </h1>
+	
+	
+
+	<br /><br /><br />
+		<footer>
+		
+		<table>
+			<tr> 
+				<td>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact <br /><br />
+					<ul>
+						<li>+63 978 586 9871<br /></li>
+						<li>+63 988 123 4911<br /></li>
+						<li>+63 062 725 4896<br /></li>
+					</ul>
+					
+				</td>
+				
+				<td>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branches <br /><br />
+					<ul>
+						<li>Mandaluyong City<br /></li>
+						<li>Makati City<br /></li>
+						<li>Quezon City<br /></li>
+					</ul>
+					
+				</td>
+				
+				<td>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Products<br /><br />
+					<ul>
+						<li><a href = "products.html#coffee" id = "product">Coffee<a/><br /></li>
+						<li><a href = "products.html#beans" id = "product"> Coffee Beans </a><br /></li>
+						<li><a href = "products.html#mugs" id = "product">Coffee Mugs<a/><br /></li>
+					</ul>
+				</td>
+				
+				<td>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connect<br /><br />
+					<ul>
+						<li><a href = "https://www.facebook.com/pages/category/coffee-shop/" target="_blank" id = "contact">Facebook<a/><br /></li>
+						<li><a href = "https://www.instagram.com/coffeeshopsoftheworld/?hl=en" target="_blank" id = "contact">Instagram<a/><br /></li>
+						<li><a href = "https://twitter.com/hashtag/coffeeshop?lang=en" target="_blank" id = "contact">Twitter<a/><br /></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+		
+		<br />
+		<hr />
+	
+		<br />
+		<center>&#169; 2021 All Rights Reserved. | <a href = "cortez_ex4.html" id = "logo" >coffeeBreak </a> | <a href = #top style = "color:white" > Back to Top </a> </center>
+		<br />
+	</footer>
+	
+</body>
+</html>
