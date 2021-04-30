@@ -68,6 +68,61 @@
         
     }
 
+    /* Identity Card Styles */
+
+    /* Card styles */
+    div.cards {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Using CSS Border Img */
+    div.cards .card {
+        background-color: rgb(228, 244, 243);
+        width: 175px;
+        height: 450px;
+        padding: 20px;
+        border: 4px solid rgb(0, 182, 188);
+        margin: 50px;
+        text-align: center;
+        float: left;
+        border-image-slice: 13 13 13 13;
+        border-image-width: 13px 13px 13px 13px;
+        border-image-outset: 13px 13px 13px 13px;
+        border-image-source: url("/assets/border_img.png"); 
+        /* CSS Shadow Effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    div.cards .card h1{
+        text-align: center;
+    }
+
+    div.cards .card p{
+        text-align: left;
+        line-height: 30px;
+    }
+
+    table {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.identity {
+        font-family: verdana, sans-serif;
+        font-size: 125%;
+    }
+
+    p.identity {
+        font-family: verdana, sans-serif;
+    }
+
+
     /* Other styles */
 
     h1 {
@@ -329,50 +384,31 @@
             <h1>This is what we do</h1>
 
 
-            <div class="products">
-                <div class="img">
-                    <a target="_blank" href="assets/products/cheesy_fries.png"><img src="assets/products/cheesy_fries.png" alt="cheesy_fries" width="175" height="175"></a>
+    <!-- Company Identity Cards -->
+    <div class="cards">
+        <div class="card">
+            <br><br>
+            <img src="" height="125px" width="125px">
+            <br><br>
+            <h1 class="identity">High Quality Products</h1>
+            <p class="identity">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+            <br><br>
+            <img src="" height="125px" width="125px">
+            <br><br>
+            <h1 class="identity">Variety of E-Juices</h1>
+            <p class="identity">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+            <br><br>
+            <img src="" height="125px" width="125px">
+            <br><br>
+            <h1 class="identity">Heartwarming Community</h1>
+            <p class="identity">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
 
-                    <table style="width: 100%;">
-                        <tr>
-                            <td><div class="desc">Cheesy Fries</div>
-                            </td>
-                            <td><div class="price">₱75.00</div></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <td><button class="btn btn-warning">Buy Now</button></td>
-                </div>
-
-                <div class="img">
-                    <a target="_blank" href="assets/products/hot_cappuccino.png"><img src="assets/products/hot_cappuccino.png" alt="hot_cappuccino" width="175" height="175"></a>
-
-                    <table style="width: 100%;">
-                        <tr>
-                            <td><div class="desc">Hot Cappuccino</div>
-                            </td>
-                            <td><div class="price">₱120.00</div></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <td><button class="btn btn-warning">Buy Now</button></td>
-                </div>
-
-                <div class="img">
-                    <a target="_blank" href="assets/products/iced_cappuccino.png"><img src="assets/products/iced_cappuccino.png" alt="iced_cappuccino" width="175" height="175"></a>
-
-                    <table style="width: 100%;">
-                        <tr>
-                            <td><div class="desc">Iced Cappuccino</div>
-                            </td>
-                            <td><div class="price">₱120.00</div></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <td><button class="btn btn-warning">Buy Now</button></td>
-                </div>
-        
-            </div>
+    </div>
 
         </div>
     
