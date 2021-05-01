@@ -76,7 +76,22 @@
         text-align: center;
         
     }
-
+    /*For multi-level dropdown sub menu*/
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    }
+    .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+    }
 
 </style>
 
@@ -99,7 +114,79 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="products.html">Products<span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../products.html">All Products</a></li>
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hot Coffee</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Hot Caramel Macchiato</a></li>
+                          <li><a href=#>Hot Cafe Latte</a></li>
+                          <li><a href=#>Hot Creamy Barako</a></li>
+                          <li><a href=#>Hot Hot Americano</a></li>
+                          <li><a href=#>Hot Dark Choco Mocha</a></li>
+                          <li><a href=#>Hot Cappuccino</a></li>
+                          <li><a href=#>Hot Milky Barako</a></li>
+                          <li><a href=#>Espresso</a></li>
+                      </ul>
+                    </li>
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Iced Coffee</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Iced Americano</a></li>
+                          <li><a href=#>Iced Creamy Barako</a></li>
+                          <li><a href=#>Iced Cafe Latte</a></li>
+                          <li><a href=#>Iced Milky Barako</a></li>
+                          <li><a href=#>Iced Cappuccino</a></li>
+                          <li><a href=#>Iced Caramel Macchiato  </a></li>
+                      </ul>
+                    </li>
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Milk Tea</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Taro Milk Tea</a></li>
+                          <li><a href=#>Caramel Milk Tea</a></li>
+                          <li><a href=#>Dark Choco Milk Tea</a></li>
+                          <li><a href=#>Blueberry Milk Tea</a></li>
+                          <li><a href=#>Hokaido Milk Tea</a></li>
+                          <li><a href=#>Red Velvet Milk Tea</a></li>
+                          <li><a href=#>Okinawa Milk Tea</a></li>
+                          <li><a href=#>Vanilla Milk Tea</a></li>
+                          <li><a href=#>Strawberry Milk Tea</a></li>
+                          <li><a href=#>Classic Milk Tea</a></li>
+                          <li><a href=#>Brown Sugar Milk Tea</a></li>
+                      </ul>
+                    </li>
+  
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fruit Tea</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Strawberry Fruit Tea</a></li>
+                          <li><a href=#>Orange Fruit Tea</a></li>
+                          <li><a href=#>Green Apple Fruit Tea</a></li>
+                          <li><a href=#>Mango Fruit Tea</a></li>
+                          <li><a href=#>Lychee Fruit Tea</a></li>
+                          <li><a href=#>Grapes Fruit Tea</a></li>
+                      </ul>
+                    </li>
+  
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Platters</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Cheddar Stick</a></li>
+                          <li><a href=#>Cheesy Fries</a></li>
+                          <li><a href=#>Regular Fries</a></li>
+                      </ul>
+                    </li>
+  
+                </ul>
+              </li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Testimonials</a></li>
           <li><a href="#">Promos & Events</a></li>
@@ -130,7 +217,7 @@
 
             <div class="products">
                 <div class="img">
-                    <a target="_blank" href="/assets/products/hot_caramel_macchiato.png"><img src="/assets/products/hot_caramel_macchiato.png" alt="hot_caramel_macchiato" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/hot_caramel_macchiato.png"><img src="assets/products/hot_caramel_macchiato.png" alt="hot_caramel_macchiato" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -144,7 +231,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/hot_dark_choco_mocha.png"><img src="/assets/products/hot_dark_choco_mocha.png" alt="hot_dark_choco_mocha" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/hot_dark_choco_mocha.png"><img src="assets/products/hot_dark_choco_mocha.png" alt="hot_dark_choco_mocha" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -158,7 +245,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/hot_cafe_latte.png"><img src="/assets/products/hot_cafe_latte.png" alt="hot_cafe_latte" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/hot_cafe_latte.png"><img src="assets/products/hot_cafe_latte.png" alt="hot_cafe_latte" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -173,7 +260,7 @@
 
                 <div class="products">
                     <div class="img">
-                        <a target="_blank" href="/assets/products/hot_cappuccino.png"><img src="/assets/products/hot_cappuccino.png" alt="hot_cappuccino" width="175" height="175"></a>
+                        <a target="_blank" href="assets/products/hot_cappuccino.png"><img src="assets/products/hot_cappuccino.png" alt="hot_cappuccino" width="175" height="175"></a>
     
                         <table style="width: 100%;">
                             <tr>
@@ -187,7 +274,7 @@
                     </div>
     
                     <div class="img">
-                        <a target="_blank" href="/assets/products/hot_creamy_barako.png"><img src="/assets/products/hot_creamy_barako.png" alt="hot_creamy_barako" width="175" height="175"></a>
+                        <a target="_blank" href="assets/products/hot_creamy_barako.png"><img src="assets/products/hot_creamy_barako.png" alt="hot_creamy_barako" width="175" height="175"></a>
     
                         <table style="width: 100%;">
                             <tr>
@@ -201,7 +288,7 @@
                     </div>
     
                     <div class="img">
-                        <a target="_blank" href="/assets/products/hot_americano.png"><img src="/assets/products/hot_americano.png" alt="hot_americano" width="175" height="175"></a>
+                        <a target="_blank" href="assets/products/hot_americano.png"><img src="assets/products/hot_americano.png" alt="hot_americano" width="175" height="175"></a>
     
                         <table style="width: 100%;">
                             <tr>
@@ -215,7 +302,7 @@
                     </div>
 
                     <div class="img">
-                        <a target="_blank" href="/assets/products/espresso.png"><img src="/assets/products/espresso.png" alt="espresso" width="175" height="175"></a>
+                        <a target="_blank" href="assets/products/espresso.png"><img src="assets/products/espresso.png" alt="espresso" width="175" height="175"></a>
     
                         <table style="width: 100%;">
                             <tr>
@@ -238,7 +325,7 @@
 
             <div class="products">
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_americano.png"><img src="/assets/products/iced_americano.png" alt="iced_americano" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_americano.png"><img src="assets/products/iced_americano.png" alt="iced_americano" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -252,7 +339,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_milky_barako.png"><img src="/assets/products/iced_milky_barako.png" alt="iced_milky_barako" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_milky_barako.png"><img src="assets/products/iced_milky_barako.png" alt="iced_milky_barako" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -266,7 +353,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_cappuccino.png"><img src="/assets/products/iced_cappuccino.png" alt="iced_cappuccino" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_cappuccino.png"><img src="assets/products/iced_cappuccino.png" alt="iced_cappuccino" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -280,7 +367,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_cafe_latte.png"><img src="/assets/products/iced_cafe_latte.png" alt="iced_cafe_latte" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_cafe_latte.png"><img src="assets/products/iced_cafe_latte.png" alt="iced_cafe_latte" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -294,7 +381,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_caramel_macchiato.png"><img src="/assets/products/iced_caramel_macchiato.png" alt="iced_caramel_macchiato" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_caramel_macchiato.png"><img src="assets/products/iced_caramel_macchiato.png" alt="iced_caramel_macchiato" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -318,7 +405,7 @@
 
             <div class="products">
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_americano.png"><img src="/assets/products/iced_americano.png" alt="iced_americano" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_americano.png"><img src="assets/products/iced_americano.png" alt="iced_americano" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -332,7 +419,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_milky_barako.png"><img src="/assets/products/iced_milky_barako.png" alt="iced_milky_barako" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_milky_barako.png"><img src="assets/products/iced_milky_barako.png" alt="iced_milky_barako" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -346,7 +433,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_cappuccino.png"><img src="/assets/products/iced_cappuccino.png" alt="iced_cappuccino" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_cappuccino.png"><img src="assets/products/iced_cappuccino.png" alt="iced_cappuccino" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -360,7 +447,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_cafe_latte.png"><img src="/assets/products/iced_cafe_latte.png" alt="iced_cafe_latte" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_cafe_latte.png"><img src="assets/products/iced_cafe_latte.png" alt="iced_cafe_latte" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -374,7 +461,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/iced_caramel_macchiato.png"><img src="/assets/products/iced_caramel_macchiato.png" alt="iced_caramel_macchiato" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/iced_caramel_macchiato.png"><img src="assets/products/iced_caramel_macchiato.png" alt="iced_caramel_macchiato" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -398,7 +485,7 @@
 
             <div class="products">
                 <div class="img">
-                    <a target="_blank" href="/assets/products/taro_milktea.png"><img src="/assets/products/taro_milktea.png" alt="taro_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/taro_milktea.png"><img src="assets/products/taro_milktea.png" alt="taro_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -412,7 +499,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/okinawa_milktea.png"><img src="/assets/products/okinawa_milktea.png" alt="okinawa_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/okinawa_milktea.png"><img src="assets/products/okinawa_milktea.png" alt="okinawa_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -426,7 +513,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/caramel_milktea.png"><img src="/assets/products/caramel_milktea.png" alt="caramel_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/caramel_milktea.png"><img src="assets/products/caramel_milktea.png" alt="caramel_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -440,7 +527,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/vanilla_milktea.png"><img src="/assets/products/vanilla_milktea.png" alt="vanilla_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/vanilla_milktea.png"><img src="assets/products/vanilla_milktea.png" alt="vanilla_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -454,7 +541,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/dark_choco_milktea.png"><img src="/assets/products/dark_choco_milktea.png" alt="dark_choco_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/dark_choco_milktea.png"><img src="assets/products/dark_choco_milktea.png" alt="dark_choco_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -468,7 +555,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/strawberry_milktea.png"><img src="/assets/products/strawberry_milktea.png" alt="strawberry_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/strawberry_milktea.png"><img src="assets/products/strawberry_milktea.png" alt="strawberry_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -482,7 +569,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/blueberry_milktea.png"><img src="/assets/products/blueberry_milktea.png" alt="blueberry_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/blueberry_milktea.png"><img src="assets/products/blueberry_milktea.png" alt="blueberry_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -496,7 +583,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/classic_milktea.png"><img src="/assets/products/classic_milktea.png" alt="classic_milktea" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/classic_milktea.png"><img src="assets/products/classic_milktea.png" alt="classic_milktea" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>
@@ -510,7 +597,7 @@
                 </div>
 
                 <div class="img">
-                    <a target="_blank" href="/assets/products/brown_sugar_milktea.png"><img src="/assets/products/brown_sugar_milktea.png" alt="" width="175" height="175"></a>
+                    <a target="_blank" href="assets/products/brown_sugar_milktea.png"><img src="assets/products/brown_sugar_milktea.png" alt="" width="175" height="175"></a>
 
                     <table style="width: 100%;">
                         <tr>

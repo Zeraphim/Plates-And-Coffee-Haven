@@ -132,6 +132,22 @@
         
     }
 
+    /*For multi-level dropdown sub menu*/
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    }
+    .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+    }
 
 </style>
 
@@ -154,7 +170,79 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="products.html">Products</span></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../products.html">All Products</a></li>
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hot Coffee</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Hot Caramel Macchiato</a></li>
+                          <li><a href=#>Hot Cafe Latte</a></li>
+                          <li><a href=#>Hot Creamy Barako</a></li>
+                          <li><a href=#>Hot Hot Americano</a></li>
+                          <li><a href=#>Hot Dark Choco Mocha</a></li>
+                          <li><a href=#>Hot Cappuccino</a></li>
+                          <li><a href=#>Hot Milky Barako</a></li>
+                          <li><a href=#>Espresso</a></li>
+                      </ul>
+                    </li>
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Iced Coffee</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Iced Americano</a></li>
+                          <li><a href=#>Iced Creamy Barako</a></li>
+                          <li><a href=#>Iced Cafe Latte</a></li>
+                          <li><a href=#>Iced Milky Barako</a></li>
+                          <li><a href=#>Iced Cappuccino</a></li>
+                          <li><a href=#>Iced Caramel Macchiato  </a></li>
+                      </ul>
+                    </li>
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Milk Tea</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Taro Milk Tea</a></li>
+                          <li><a href=#>Caramel Milk Tea</a></li>
+                          <li><a href=#>Dark Choco Milk Tea</a></li>
+                          <li><a href=#>Blueberry Milk Tea</a></li>
+                          <li><a href=#>Hokaido Milk Tea</a></li>
+                          <li><a href=#>Red Velvet Milk Tea</a></li>
+                          <li><a href=#>Okinawa Milk Tea</a></li>
+                          <li><a href=#>Vanilla Milk Tea</a></li>
+                          <li><a href=#>Strawberry Milk Tea</a></li>
+                          <li><a href=#>Classic Milk Tea</a></li>
+                          <li><a href=#>Brown Sugar Milk Tea</a></li>
+                      </ul>
+                    </li>
+  
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fruit Tea</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Strawberry Fruit Tea</a></li>
+                          <li><a href=#>Orange Fruit Tea</a></li>
+                          <li><a href=#>Green Apple Fruit Tea</a></li>
+                          <li><a href=#>Mango Fruit Tea</a></li>
+                          <li><a href=#>Lychee Fruit Tea</a></li>
+                          <li><a href=#>Grapes Fruit Tea</a></li>
+                      </ul>
+                    </li>
+  
+                    <!--Product Category-->
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Platters</a>
+                      <ul class="dropdown-menu">
+                          <li><a href=#>Cheddar Stick</a></li>
+                          <li><a href=#>Cheesy Fries</a></li>
+                          <li><a href=#>Regular Fries</a></li>
+                      </ul>
+                    </li>
+  
+                </ul>
+              </li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Testimonials</a></li>
           <li><a href="#">Promos & Events</a></li>
