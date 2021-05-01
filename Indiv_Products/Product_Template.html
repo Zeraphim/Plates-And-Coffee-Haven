@@ -19,7 +19,7 @@
 
     div.main_card {
         border-radius: 30px;
-        margin:50px;
+        margin-top:50px;
         padding: 70px;
         background-color: #8E8686;
     }
@@ -69,6 +69,10 @@
     }
 
     /* Other styles */
+    
+    li{
+      font-size: 20px;
+    }
 
     h1 {
         font-family: helvetica, sans-serif;
@@ -214,13 +218,40 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-
+    <!--Main Content-->
+    <div class="container">
     <div class="main_card">
-        
-        <div class="container">
+      
+        <div class="pull-left img">
+          <!--Image of product and Price and Buy Button-->
+          <img src="../assets/products/hot_caramel_macchiato.png" alt="Image of a hot caramel macchiato" width="300px" height="300px" style="margin-left: -20px;">
+        </div>
+        <div class="pull-right text-wrap" style="max-width: 600px;">
+          <!--Title of Product-->
+          <h1 style="color: white;"><strong>Hot Caramel Macchiato</strong></h1>
+          <div class="center" style="width: 60px; height: 5px; background-color: white;"></div>
+          <h2>&#8369;130.00</h2>
+          <img src="../assets/5_stars.png" alt="picture of 5 stars" height="40px;"> 8 Reviews
+          <!--Short description of product-->
+          <p class="lead text-justify ">
+          Freshly steamed milk with vanilla-flavored syrup marked with espresso and topped with a caramel drizzle for an oh-so-sweet finish. 
+          </p>
+          
+          <!--Description in bullet form-->
+          <ul>
+            <li>Made to order</li>
+            <li>Freshly brewed</li>
+            <li>Deleciously sweet</li>
+          </ul>
+          <br />
+          <!--Buy Button-->
+          <td><a class="btn btn-warning" href="https://www.foodpanda.ph/restaurant/r8sn/plates-and-coffee-vito-cruz#" target="_blank">Buy Now</a></td>
+        </div>
+        <!--Clear fix of float-->
+        <div class="clearfix"></div>
+        <hr />
 
         </div>
-
     </div>
 
 
