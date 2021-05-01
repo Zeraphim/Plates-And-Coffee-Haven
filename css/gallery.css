@@ -1,0 +1,28 @@
+/* navigation bar */
+body{
+	margin: 0 auto;
+	background: #f5f5f5;
+}
+
+#gallery-container{
+	margin: 50px auto;
+}
+
+h1{
+	color: #000000b8;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	font-weight: bolder;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+

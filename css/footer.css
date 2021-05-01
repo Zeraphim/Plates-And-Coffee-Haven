@@ -1,0 +1,177 @@
+.gallery {
+  margin: 5px;
+  border: 2px solid #101010;
+  float: left;
+  opacity: 0.8;
+}
+
+.gallery:hover {
+  border: 2px solid #777;
+  opacity: 1;
+}
+
+.gallery img{
+	width: 100%;
+	max-width: 350px;
+}
+
+footer{
+	background: #6A6767;
+	color: white;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	margin-top: 90px;
+}
+
+footer .container {
+	width: auto;
+	max-width: 1200px;
+}
+
+footer .container ul{
+	padding-inline-start: 0;
+}
+
+footer .container ul li{
+	list-style: none;
+}
+
+footer .container ul li a{
+	font-style: underline;
+	color: white;
+}
+
+.contact-us p, .copyright-text{
+	margin: 0 auto;
+}
+
+.copyright-text{
+	text-align: center;
+}
+
+.gallery-cont h3{
+	margin: 20px;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.mySlides img{
+	width: 100%;
+    border: 5px solid white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1100px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.mySlides img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.mySlides img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 992px){
+	.footer{
+		text-align: center;
+	}
+	
+	.gallery-img{
+		margin: auto 307px;
+	}
+}
+
+@media (max-width: 375px){
+	
+	.gallery-img{
+		margin: auto 114px;
+	}
+}
+
