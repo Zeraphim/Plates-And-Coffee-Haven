@@ -1,306 +1,306 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact Us || Plates and Coffee Haven</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact-us || Plates and Coffee Haven</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- CSS -->
-    <link href="css/testimonials.css" rel="stylesheet" />
-    <link href="css/footer.css" rel="stylesheet" />
-  </head>
+    <link href="css/footer.css" rel="stylesheet">
 
-  <style>
+</head>
+
+<style>
     body {
-      background-color: #353838;
-      background-image: url("assets/bg_img.jpg");
-      background-size: cover;
+        background-color: #353838;
+        background-image: url('assets/bg_img.jpg');
+        background-size: cover;
     }
 
-      /*For multi-level dropdown sub menu*/
-  .dropdown-submenu {
-	position: relative;
-  }
-  .dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-  }
-  .dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  -webkit-border-radius: 0 6px 6px 6px;
-  -moz-border-radius: 0 6px 6px;
-  border-radius: 0 6px 6px 6px;
-  }
-  </style>
+    div.main_card {
+        border-radius: 30px;
+        margin-top:50px;
+        padding: 70px;
+        background-color: #8E8686;
+    }
 
-  <body>
-    <nav
-      class="navbar navbar-fixed-top navbar-inverse"
-      style="margin-bottom: 0"
-    >
+    /* Card styles */
+    /* Product styles */
+    div.products{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.img {
+        width: 293px;
+        height: 329px;
+        background-color: #464239;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 5px;
+        text-align: center;
+        float:left;
+        /* CSS Shadow effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    div.img:hover {
+        background-color: #d1b780;
+    }
+
+    div.desc {
+        font-family: verdana, sans-serif;
+        color: white;
+        text-align: center;
+        margin: 5px;
+        font-weight: bold;
+    }
+
+    div.price {
+        font-family: verdana, sans-serif;
+        text-align: center;
+        color: #ba0f30;
+        font-size: 150%;
+        
+    }
+
+    /* Other styles */
+    
+    li.desc{
+      font-size: 20px;
+    }
+
+    h1 {
+        font-family: helvetica, sans-serif;
+        color: #D39B76;
+        text-align: center;
+        
+    }
+
+    .parent{
+      display: block;
+      position: relative;
+      float: left;
+      line-height: 30px;
+      background-color: #4FA0D8;
+      border-right:#CCC 1px solid;
+    }
+    /*For multi-level dropdown sub menu*/
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    }
+    .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+    }
+
+    /*For iFrame*/
+    .map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+</style>
+
+<body>
+  
+
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0;">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false"
-          >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html" style="padding-top: 8px"
-            ><img
-              src="assets/logo_navbar_banner.png"
-              alt="logo banner"
-              width="250"
-              height="40"
-              class="d-inline-block align-top"
-              alt="logo"
-          /></a>
+          <a class="navbar-brand" href="index.html" style="padding-top: 8px;"><img src="assets/logo_navbar_banner.png" alt="logo banner" width="250" height="40" class="d-inline-block align-top" alt="logo"></a>
         </div>
-
+    
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a
-                href="#"
-                class="dropdown-toggle dropdown-active"
-                data-toggle="dropdown"
-                >Products</a
-              >
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a>
               <ul class="dropdown-menu">
-                <li><a href="products.html">All Products</a></li>
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Hot Coffee</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Hot_Caramel_Macchiato.html"
-                        >Hot Caramel Macchiato</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Cafe_Latte.html"
-                        >Hot Cafe Latte</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Creamy_Barako.html"
-                        >Hot Creamy Barako</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Americano.html"
-                        >Hot Americano</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Dark_Choco_Mocha.html"
-                        >Hot Dark Choco Mocha</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Cappuccino.html"
-                        >Hot Cappuccino</a
-                      >
-                    </li>
-                    <li><a href="Indiv_Products/Espresso.html">Espresso</a></li>
-                  </ul>
-                </li>
+                  <li><a href="products.html">All Products</a></li>
+                  <!--Product Category-->
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hot Coffee</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Indiv_Products/Hot_Caramel_Macchiato.html">Hot Caramel Macchiato</a></li>
+                        <li><a href="Indiv_Products/Hot_Cafe_Latte.html">Hot Cafe Latte</a></li>
+                        <li><a href="Indiv_Products/Hot_Creamy_Barako.html">Hot Creamy Barako</a></li>
+                        <li><a href="Indiv_Products/Hot_Americano.html">Hot Americano</a></li>
+                        <li><a href="Indiv_Products/Hot_Dark_Choco_Mocha.html">Hot Dark Choco Mocha</a></li>
+                        <li><a href="Indiv_Products/Hot_Cappuccino.html">Hot Cappuccino</a></li>
+                        <li><a href="Indiv_Products/Espresso.html">Espresso</a></li>
+                    </ul>
+                  </li>
+                  <!--Product Category-->
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Iced Coffee</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Indiv_Products/Iced_Americano.html">Iced Americano</a></li>
+                        <li><a href="Indiv_Products/Iced_Cafe_Latte.html">Iced Cafe Latte</a></li>
+                        <li><a href="Indiv_Products/Iced_Milky_Barako.html">Iced Milky Barako</a></li>
+                        <li><a href="Indiv_Products/Iced_Cappuccino.html">Iced Cappuccino</a></li>
+                        <li><a href="Indiv_Products/Iced_Caramel_Macchiato.html">Iced Caramel Macchiato  </a></li>
+                    </ul>
+                  </li>
+                  <!--Product Category-->
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Milk Tea</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Indiv_Products/Taro_Milk_Tea.html">Taro Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Caramel_Milk_Tea.html">Caramel Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Dark_Choco_Milk_Tea.html">Dark Choco Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Blueberry_Milk_Tea.html">Blueberry Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Okinawa_Milk_Tea.html">Okinawa Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Vanilla_Milk_Tea.html">Vanilla Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Strawberry_Milk_Tea.html">Strawberry Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Classic_Milk_Tea.html">Classic Milk Tea</a></li>
+                        <li><a href="Indiv_Products/Brown_Sugar_Milk_Tea.html">Brown Sugar Milk Tea</a></li>
+                    </ul>
+                  </li>
 
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Iced Coffee</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Iced_Americano.html"
-                        >Iced Americano</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Cafe_Latte.html"
-                        >Iced Cafe Latte</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Milky_Barako.html"
-                        >Iced Milky Barako</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Cappuccino.html"
-                        >Iced Cappuccino</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Caramel_Macchiato.html"
-                        >Iced Caramel Macchiato
-                      </a>
-                    </li>
-                  </ul>
-                </li>
+                  <!--Product Category-->
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fruit Tea</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Indiv_Products/Strawberry_Fruit_Tea.html">Strawberry Fruit Tea</a></li>
+                        <li><a href="Indiv_Products/Orange_Fruit_Tea.html">Orange Fruit Tea</a></li>
+                        <li><a href="Indiv_Products/Green_Apple_Fruit_Tea.html">Green Apple Fruit Tea</a></li>
+                        <li><a href="Indiv_Products/Mango_Fruit_Tea.html">Mango Fruit Tea</a></li>
+                        <li><a href="Indiv_Products/Lychee_Fruit_Tea.html">Lychee Fruit Tea</a></li>
+                        <li><a href="Indiv_Products/Grapes_Fruit_Tea.html">Grapes Fruit Tea</a></li>
+                    </ul>
+                  </li>
 
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Milk Tea</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Taro_Milk_Tea.html"
-                        >Taro Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Caramel_Milk_Tea.html"
-                        >Caramel Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Dark_Choco_Milk_Tea.html"
-                        >Dark Choco Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Blueberry_Milk_Tea.html"
-                        >Blueberry Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Okinawa_Milk_Tea.html"
-                        >Okinawa Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Vanilla_Milk_Tea.html"
-                        >Vanilla Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Strawberry_Milk_Tea.html"
-                        >Strawberry Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Classic_Milk_Tea.html"
-                        >Classic Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Brown_Sugar_Milk_Tea.html"
-                        >Brown Sugar Milk Tea</a
-                      >
-                    </li>
-                  </ul>
-                </li>
+                  <!--Product Category-->
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Platters</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Indiv_Products/Cheddar_Stick.html">Cheddar Stick</a></li>
+                        <li><a href="Indiv_Products/Cheesy_Fries.html">Cheesy Fries</a></li>
+                        <li><a href="Indiv_Products/Regular_Fries.html">Regular Fries</a></li>
+                    </ul>
+                  </li>
 
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Fruit Tea</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Strawberry_Fruit_Tea.html"
-                        >Strawberry Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Orange_Fruit_Tea.html"
-                        >Orange Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Green_Apple_Fruit_Tea.html"
-                        >Green Apple Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Mango_Fruit_Tea.html"
-                        >Mango Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Lychee_Fruit_Tea.html"
-                        >Lychee Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Grapes_Fruit_Tea.html"
-                        >Grapes Fruit Tea</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Platters</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Cheddar_Stick.html"
-                        >Cheddar Stick</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Cheesy_Fries.html"
-                        >Cheesy Fries</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Regular_Fries.html"
-                        >Regular Fries</a
-                      >
-                    </li>
-                  </ul>
-                </li>
               </ul>
             </li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
             <li><a href="events.html">Promos & Events</a></li>
           </ul>
-
+  
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a
-                href="#"
-                class="dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >About <span class="caret"></span
-              ></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="about us.html">About Us</a></li>
                 <li><a href="contact.html">Contact Form</a></li>
               </ul>
             </li>
           </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
+
+    <!--Main Content-->
+    <div class="container">
+    <div class="main_card">
+      
+        <div class="pull-left " style="padding-right: 10px; max-width: 70%;">
+
+          <h1 style="color: white;">You can reach us through the following:</h1>
+          <h3><img src="assets/Pictures/phone-call.png" width="150" height="150"><br><br> - 0908 380 1078 </h3>
+          <h3><img src="assets/Pictures/email.png" width="150" height="150"><br><br> - platesandcoffee@gmail.com</h3>
+          <br/>
+          <h3><img src="assets/Pictures/address.png" width="150" height="150"><br><br> - Unit 2 Bellagio Residences Malate 1002 Manila, Philippines</h3>
+          <br />
+
+        </div>
+        <div class="pull-right text-wrap" style="max-width: 600px; ">
+          <h1 style="color: white;">Contact Us Form</h1>
+
+          <h3 class="lead">Your Information:</h3>
+          <!--Form-->
+          <form id="form1" name="form1" action="mailto:jidava@mymail.mapua.edu.ph" method="post" enctype="text/plain">
+            
+            <!--Email Address-->
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com" required>
+            </div>
+            
+            <!--First Name-->
+            <div class="form-group">
+              <label for="exampleFormControlInput2">First Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput2" name="first-name" required>
+            </div>
+
+            <!--Last Name-->
+            <div class="form-group">
+              <label for="exampleFormControlInput3">Last Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput3" name="last-name">
+            </div>
+          
+            <!--Text Area-->
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Experience" placeholder="Tell us about your experience" style="resize: vertical;" required></textarea>
+            </div>
+          
+          
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary">Reset</button>
+          </form>
+        </div>
+        <!--Clear fix of float-->
+        <div class="clearfix"></div>
+        <center>
+          <a href = "https://www.facebook.com/PlatesAndCoffee/" target= "_blank"> <img src="assets/Pictures/facebook_icon.png" width="120" height="120" style="padding: 10px;"> </a>
+          <a href = "https://www.instagram.com/platesandcoffee/?igshid=gb3exb0x3oiu&fbclid=IwAR3JGia3ALD-BwbzC2fnNX4Yir-Nb_4kb4alBDKQL32SNUID8aUSvVikq-s" target= "_blank"> <img src="assets/Pictures/Instagram_icon.png" width="100" height="100"> </a>
+          <a href = "https://www.facebook.com/PlatesAndCoffee/" target= "_blank"> <img src="assets/Pictures/twitter_icon.png" width="120" height="120" style="padding: 10px;"> </a>
+        </center>
+        <hr />
+        <!--iFrame Google map-->
+        <div class="container">
+        <h1 style="text-align: left; color: white;">Where to Find Us</h1>
+        </div>
+        <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.513533623874!2d120.99164008530113!3d14.569788969914741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c98178158d35%3A0x4bf8f02459d4daef!2s1004%20Leon%20Guinto%20St%2C%20Malate%2C%20Manila%2C%201004%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1619947071574!5m2!1sen!2sph" frameborder="0"style="border:0" allowfullscreen></iframe>
+        </div>
+        </div>
+    </div>
 
 
 	<!-- Site footer -->
@@ -422,10 +422,11 @@
       <br/>
     </div>
   </footer>
-  
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
