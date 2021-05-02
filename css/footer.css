@@ -1,7 +1,10 @@
+#myImg{
+  min-width: 40px;
+}
 .gallery {
   margin: 5px;
   border: 2px solid #101010;
-  float: left;
+  float: left !important;
   opacity: 0.8;
 }
 
