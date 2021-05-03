@@ -1,0 +1,145 @@
+/*PROMO PART*/
+.event_container {
+  text-align: center;
+}
+
+.event_header {
+  color: black;
+  font-size: 50px;
+  margin: auto;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.event_sub_container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 48px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PROMO CARDS MAIN */
+.promo_cards {
+  margin: 50px;
+  padding: 22px;
+  max-width: 25%;
+  transition: 0.4s;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.promo_cards img {
+  width: auto;
+  height: 150px;
+  border-radius: 5%;
+}
+
+.promo_card_text {
+  margin: 10px 0;
+  font-weight: lighter;
+  color: #4e4e4e;
+}
+
+.promo_card_header {
+  color: black;
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.promo_cards:hover {
+  background: #ddd;
+}
+
+/* POP-UP PROMO CARDS MAIN */
+.popup_promo_cards {
+  margin: 10px;
+  padding: 50px;
+  max-width: 100%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.popup_promo_card_text {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.popup_promo_cards:hover {
+  background: #ddd;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  margin: 60px auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0);
+  border-radius: 25%;
+}
+
+/*EVENTS PART*/
+
+.low {
+  border-radius: 30px;
+  margin: 50px;
+  padding: 25px;
+  text-align: center;
+  align-content: center;
+  text-shadow: 2px 2px black;
+}
+
+.low_event {
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  font-weight: bold;
+  padding: 48px;
+}
+
+.low_container {
+  margin: auto;
+  padding: 48px 0;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.low_header {
+  font-size: 30px;
+  letter-spacing: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.low_text {
+  font-size: 20px;
+  color: white;
+  padding: 24px 0;
+  margin: auto;
+}
+
+hr {
+  width: 30%;
+  margin: 30px auto;
+  border: 1.5px solid white;
+  background-color: white;
+}
+
+.low_p {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: white;
+}
