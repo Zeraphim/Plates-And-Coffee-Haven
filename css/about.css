@@ -1,0 +1,102 @@
+.about_container {
+  text-align: center;
+}
+
+.about_h1 {
+  padding-top: 60px;
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.about_header {
+  padding-top: 60px;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  line-height: 50px;
+}
+
+.about_sub_container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 48px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.owners {
+  margin: 50px;
+  padding: 22px;
+  max-width: 30%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.owners:hover {
+  background: #ddd;
+}
+
+.owners img {
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.names {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.pos {
+  font-style: italic;
+  color: #888;
+}
+
+.about {
+  margin: 20px 0;
+  font-weight: lighter;
+  color: #4e4e4e;
+}
+
+.history {
+  margin: 50px;
+  padding: 22px;
+  max-width: 70%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.history:hover {
+  background: #ddd;
+}
+
+.history img {
+  width: auto;
+  height: 450px;
+  border-radius: 5%;
+}
+
+.about_history_sub_container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .owners img {
+    max-width: 100%;
+  }
+}

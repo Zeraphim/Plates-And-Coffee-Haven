@@ -1,320 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About Us || Plates and Coffee Haven</title>
 
-    <!-- Website Icon -->
-    <link rel="icon" href="assets/logo_transparent.png">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us || Plates and Coffee Haven</title>
 
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Website Icon -->
+  <link rel="icon" href="assets/logo_transparent.png" />
 
-    <!-- CSS -->
-    <link href="css/testimonials.css" rel="stylesheet" />
-    <link href="css/footer.css" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  </head>
+  <!-- CSS -->
+  <link href="css/testimonials.css" rel="stylesheet" />
+  <link href="css/footer.css" rel="stylesheet" />
+  <link href="css/about.css" rel="stylesheet" />
+  <link href="assets/fontawesome-free-5.15.3-web/css/fontawesome.min.css" />
+</head>
 
-  <style>
-    body {
-      background-color: #353838;
-      background-image: url("assets/bg_img.jpg");
-      background-size: cover;
-    }
+<style>
+  body {
+    background-color: #353838;
+    background-image: url("assets/bg_img.jpg");
+    background-size: cover;
+  }
 
-      /*For multi-level dropdown sub menu*/
+  div.main_card {
+    border-radius: 30px;
+    margin: 50px;
+    padding: 25px;
+    background-color: #8e8686;
+  }
+
+  /*For multi-level dropdown sub menu*/
   .dropdown-submenu {
-	position: relative;
+    position: relative;
   }
+
   .dropdown-submenu:hover>.dropdown-menu {
-  display: block;
+    display: block;
   }
+
   .dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  -webkit-border-radius: 0 6px 6px 6px;
-  -moz-border-radius: 0 6px 6px;
-  border-radius: 0 6px 6px 6px;
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
   }
-  </style>
+</style>
 
-  <body>
-    <nav
-      class="navbar navbar-fixed-top navbar-inverse"
-      style="margin-bottom: 0"
-    >
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html" style="padding-top: 8px"
-            ><img
-              src="assets/logo_navbar_banner.png"
-              alt="logo banner"
-              width="250"
-              height="40"
-              class="d-inline-block align-top"
-              alt="logo"
-          /></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a
-                href="#"
-                class="dropdown-toggle dropdown-active"
-                data-toggle="dropdown"
-                >Products</a
-              >
-              <ul class="dropdown-menu">
-                <li><a href="products.html">All Products</a></li>
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Hot Coffee</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Hot_Caramel_Macchiato.html"
-                        >Hot Caramel Macchiato</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Cafe_Latte.html"
-                        >Hot Cafe Latte</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Creamy_Barako.html"
-                        >Hot Creamy Barako</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Americano.html"
-                        >Hot Americano</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Dark_Choco_Mocha.html"
-                        >Hot Dark Choco Mocha</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Hot_Cappuccino.html"
-                        >Hot Cappuccino</a
-                      >
-                    </li>
-                    <li><a href="Indiv_Products/Espresso.html">Espresso</a></li>
-                  </ul>
-                </li>
-
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Iced Coffee</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Iced_Americano.html"
-                        >Iced Americano</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Cafe_Latte.html"
-                        >Iced Cafe Latte</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Milky_Barako.html"
-                        >Iced Milky Barako</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Cappuccino.html"
-                        >Iced Cappuccino</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Iced_Caramel_Macchiato.html"
-                        >Iced Caramel Macchiato
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Milk Tea</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Taro_Milk_Tea.html"
-                        >Taro Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Caramel_Milk_Tea.html"
-                        >Caramel Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Dark_Choco_Milk_Tea.html"
-                        >Dark Choco Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Blueberry_Milk_Tea.html"
-                        >Blueberry Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Okinawa_Milk_Tea.html"
-                        >Okinawa Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Vanilla_Milk_Tea.html"
-                        >Vanilla Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Strawberry_Milk_Tea.html"
-                        >Strawberry Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Classic_Milk_Tea.html"
-                        >Classic Milk Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Brown_Sugar_Milk_Tea.html"
-                        >Brown Sugar Milk Tea</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Fruit Tea</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Strawberry_Fruit_Tea.html"
-                        >Strawberry Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Orange_Fruit_Tea.html"
-                        >Orange Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Green_Apple_Fruit_Tea.html"
-                        >Green Apple Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Mango_Fruit_Tea.html"
-                        >Mango Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Lychee_Fruit_Tea.html"
-                        >Lychee Fruit Tea</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Grapes_Fruit_Tea.html"
-                        >Grapes Fruit Tea</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-
-                <!--Product Category-->
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    >Platters</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="Indiv_Products/Cheddar_Stick.html"
-                        >Cheddar Stick</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Cheesy_Fries.html"
-                        >Cheesy Fries</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Indiv_Products/Regular_Fries.html"
-                        >Regular Fries</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="events.html">Promos & Events</a></li>
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a
-                href="#"
-                class="dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >About <span class="caret"></span
-              ></a>
-              <ul class="dropdown-menu">
-                <li><a href="about us.html">About Us</a></li>
-                <li><a href="contact.html">Contact Form</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+<body>
+  <nav class="navbar navbar-fixed-top navbar-inverse" style="margin-bottom: 0">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" style="padding-top: 8px"><img src="assets/logo_navbar_banner.png"
+            alt="logo banner" width="250" height="40" class="d-inline-block align-top" alt="logo" /></a>
       </div>
-      <!-- /.container-fluid -->
-    </nav>
 
-	<!-- Site footer -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle dropdown-active" data-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu">
+              <li><a href="products.html">All Products</a></li>
+              <!--Product Category-->
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hot Coffee</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="Indiv_Products/Hot_Caramel_Macchiato.html">Hot Caramel Macchiato</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Hot_Cafe_Latte.html">Hot Cafe Latte</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Hot_Creamy_Barako.html">Hot Creamy Barako</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Hot_Americano.html">Hot Americano</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Hot_Dark_Choco_Mocha.html">Hot Dark Choco Mocha</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Hot_Cappuccino.html">Hot Cappuccino</a>
+                  </li>
+                  <li><a href="Indiv_Products/Espresso.html">Espresso</a></li>
+                </ul>
+              </li>
+
+              <!--Product Category-->
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Iced Coffee</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="Indiv_Products/Iced_Americano.html">Iced Americano</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Iced_Cafe_Latte.html">Iced Cafe Latte</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Iced_Milky_Barako.html">Iced Milky Barako</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Iced_Cappuccino.html">Iced Cappuccino</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Iced_Caramel_Macchiato.html">Iced Caramel Macchiato
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <!--Product Category-->
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Milk Tea</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="Indiv_Products/Taro_Milk_Tea.html">Taro Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Caramel_Milk_Tea.html">Caramel Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Dark_Choco_Milk_Tea.html">Dark Choco Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Blueberry_Milk_Tea.html">Blueberry Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Okinawa_Milk_Tea.html">Okinawa Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Vanilla_Milk_Tea.html">Vanilla Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Strawberry_Milk_Tea.html">Strawberry Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Classic_Milk_Tea.html">Classic Milk Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Brown_Sugar_Milk_Tea.html">Brown Sugar Milk Tea</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!--Product Category-->
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fruit Tea</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="Indiv_Products/Strawberry_Fruit_Tea.html">Strawberry Fruit Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Orange_Fruit_Tea.html">Orange Fruit Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Green_Apple_Fruit_Tea.html">Green Apple Fruit Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Mango_Fruit_Tea.html">Mango Fruit Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Lychee_Fruit_Tea.html">Lychee Fruit Tea</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Grapes_Fruit_Tea.html">Grapes Fruit Tea</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!--Product Category-->
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Platters</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="Indiv_Products/Cheddar_Stick.html">Cheddar Stick</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Cheesy_Fries.html">Cheesy Fries</a>
+                  </li>
+                  <li>
+                    <a href="Indiv_Products/Regular_Fries.html">Regular Fries</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="events.html">Promos & Events</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="about us.html">About Us</a></li>
+              <li><a href="contact.html">Contact Form</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!---Main Content-->
+  <br /><br /><br />
+
+  <div class="about_h1">ABOUT US</div>
+  <!--OWNERS-->
+  <div class="main_card">
+    <div class="about_container">
+      <div class="about_header">
+        <h1>THE OWNERS</h1>
+      </div>
+
+      <!--MARY ANN-->
+      <div class="about_sub_container">
+        <div class="owners">
+          <img src="assets/Pictures/m_cinco_about.jpg" alt="Mary Ann Cinco" />
+          <div class="names">Mary Ann Cinco</div>
+          <div class="pos">Owner</div>
+          <div class="about">
+            Passionate about coffee and sweets, Mary Ann decided to open a business centered on these likings, thus
+            Cakes and Coffee was created.
+          </div>
+        </div>
+        <!-- GARY -->
+
+        <div class="owners">
+          <img src="assets/Pictures/g_cinco_about.png" alt="Gary Cinco" />
+          <div class="names">Gary Cinco</div>
+          <div class="pos">Owner</div>
+          <div class="about">
+            Having the skill and experience to manage staff and business, Gary is one of the key factors to why Plates
+            and Coffee became successful.
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <!--HISTORY-->
+  <div class="main_card">
+    <div class="about_container">
+      <div class="about_header">
+        <h1>A LITTLE HISTORY</h1>
+      </div>
+
+      <!---HISTORY 1-->
+      <div class="about_history_sub_container">
+        <div class="history">
+          <img src="assets/Pictures/dine_in_customers_9.jpg" alt="Cakes and Coffee Dine In" />
+          <div class="names">"Cakes and Coffee"</div>
+          <div class="about">
+            This cafe was first named "Cakes and Coffee" back in 2018, but
+            with several additions to the menu such as burgers, chicken wings,
+            fries, and rice meals. It is later decided to change its name to
+            "Plates and Coffee" to signify all the latest addition to the
+            menu.
+          </div>
+        </div>
+      </div>
+
+      <!---HISTORY 2-->
+      <div class="about_history_sub_container">
+        <div class="history">
+          <img src="assets/Pictures/logo.jpg" alt="Plates and Coffee" />
+          <div class="names">Growth</div>
+          <div class="about">
+            Plates and Coffee grew and made a reputation amongst LaSallians and other school institutions around Taft,
+            Vito Cruz. It became one of the "tambayan" for the students.
+          </div>
+        </div>
+      </div>
+
+
+      <!---HISTORY 2-->
+      <div class="about_history_sub_container">
+        <div class="history">
+          <img src="assets/Pictures/pnc_pan_about.jpg" alt="PNC During the Pandemic" />
+          <div class="names">Bounce Back vs the Pandemic</div>
+          <div class="about">
+            All of the other businesses became victims, and Plates and Coffee was no exception. The COVID-19 pandemic
+            struck and made it difficult for the cafe to survive. However, this did not stop us from giving out and
+            trying to help, especially to the frontliners against the pandemic.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Site footer -->
   <footer class="footer mt-auto py-3 bg-light">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-5">
           <h3><b>Plates and Coffee</b></h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-          into electronic typesetting, remaining essentially unchanged.</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+          </p>
           <br />
           <ul class="footer-links">
             <li><a href="testimonials.html">Testimonials</a></li>
@@ -331,9 +344,9 @@
             <li><a href="products.html">Milk Tea</a></li>
             <li><a href="products.html">Other Drinks</a></li>
           </ul>
-          
+
           <!--GLenn PNE - insert sections-->
-          
+
           <h3><b>Promos & Events</b></h3>
           <ul class="footer-links">
             <li><a href="#">Section 1</a></li>
@@ -344,92 +357,113 @@
         <div class="col-xs-12 col-md-2 gallery-cont">
           <h3><b>Gallery</b></h3>
           <div class="gallery-img">
-              <div class="row">
-                  <div class="col-sm">
-                    <div class="gallery">
-                      <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic1.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                  </div>
+            <div class="row">
+              <div class="col-sm">
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic1.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
               </div>
               <div class="col-sm">
-                  <div class="gallery">
-                      <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic2.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                  </div>
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic2.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
               </div>
               <div class="col-sm">
-                  <div class="gallery">
-                      <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic3.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                  </div>
-                  </div>
-               </div>
-              
-              <div class="row">
-                  <div class="col-sm">
-                      <div class="gallery">
-                          <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic4.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                      </div>
-                  </div>
-                  <div class="col-sm">
-                      <div class="gallery">
-                          <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic5.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                      </div>
-                  </div>
-                  <div class="col-sm">
-                      <div class="gallery">
-                          <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic6.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                      </div>
-                  </div>
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic3.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
+              </div>
             </div>
-              
-              <div class="row">
-                  <div class="col-sm">
-                      <div class="gallery">
-                          <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic7.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                      </div>
-                  </div>
-                  <div class="col-sm">
-                      <div class="gallery">
-                          <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic8.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                      </div>
-                  </div>
-                  <div class="col-sm">
-                      <div class="gallery">
-                          <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic9.jpg" alt="Snow" style="width:100%;max-width:300px"></a>
-                      </div>
-                  </div>
+
+            <div class="row">
+              <div class="col-sm">
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic4.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
               </div>
+              <div class="col-sm">
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic5.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic6.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm">
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic7.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic8.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="gallery">
+                  <a href="gallery.html"><img id="myImg" src="assets/Pictures/sm-pic9.jpg" alt="Snow"
+                      style="width: 100%; max-width: 300px" /></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        
+
         <div class="col-xs-12 col-md-3 contact-us">
           <h3><b>Connect With Us</b></h3>
-          <p><img src="assets/Pictures/Phone.jpg" width="15" height="15">&nbsp;0908 380 1078 </p>
-          <p><img src="assets/Pictures/email.png" width="15" height="15">&nbsp;platesandcoffee@gmail.com</p>
-          <br/>
-          <p><img src="assets/Pictures/address.png" width="15" height="15">&nbsp;Unit 2 Bellagio Residences Malate 1002 Manila, Philippines</p>
-          
+          <p>
+            <img src="assets/Pictures/Phone.jpg" width="15" height="15" />&nbsp;0908 380 1078
+          </p>
+          <p>
+            <img src="assets/Pictures/email.png" width="15" height="15" />&nbsp;platesandcoffee@gmail.com
+          </p>
+          <br />
+          <p>
+            <img src="assets/Pictures/address.png" width="15" height="15" />&nbsp;Unit 2 Bellagio Residences Malate 1002
+            Manila, Philippines
+          </p>
+
           <br />
           <center>
-              <a href = "https://www.facebook.com/PlatesAndCoffee/" target= "_blank"> <img src="assets/Pictures/facebook_icon.png" width="20" height="20"> </a>
-              <a href = "https://www.instagram.com/platesandcoffee/?igshid=gb3exb0x3oiu&fbclid=IwAR3JGia3ALD-BwbzC2fnNX4Yir-Nb_4kb4alBDKQL32SNUID8aUSvVikq-s" target= "_blank"> <img src="assets/Pictures/Instagram_icon.png" width="20" height="20"> </a>
-              <a href = "https://www.facebook.com/PlatesAndCoffee/" target= "_blank"> <img src="assets/Pictures/twitter_icon.png" width="20" height="20"> </a>
+            <a href="https://www.facebook.com/PlatesAndCoffee/" target="_blank">
+              <img src="assets/Pictures/facebook_icon.png" width="20" height="20" />
+            </a>
+            <a href="https://www.instagram.com/platesandcoffee/?igshid=gb3exb0x3oiu&fbclid=IwAR3JGia3ALD-BwbzC2fnNX4Yir-Nb_4kb4alBDKQL32SNUID8aUSvVikq-s"
+              target="_blank">
+              <img src="assets/Pictures/Instagram_icon.png" width="20" height="20" />
+            </a>
+            <a href="https://www.facebook.com/PlatesAndCoffee/" target="_blank">
+              <img src="assets/Pictures/twitter_icon.png" width="20" height="20" />
+            </a>
           </center>
-          
         </div>
       </div>
-      <hr>
+      <hr />
     </div>
     <div class="container">
       <p class="copyright-text">2021. All Rights Reserved</p>
       <p class="copyright-text">Made by Cinco | Cortez | Dava | Diamante</p>
-      <span><a href="#top" style="color:white">Back to Top</a></span>
-      <br/>
+      <span><a href="#top" style="color: white">Back to Top</a></span>
+      <br />
     </div>
   </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-
-  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
 
 </html>
